@@ -552,13 +552,19 @@ export default class Platform extends React.Component {
                 I. New Chapter Bylaws Amendment
               </h5>
               <p className="main__platform-subsection">
-                A constitutional amendment requiring new chapters to
-                provisionally adopt national sample bylaws for their first 6
-                months so they can establish a baseline of internal organization
-                and leadership before going through the tedious process of
-                drafting new bylaws. (Currently, the national provides sample
-                bylaws but cannot require that chapters adopt them instead of
-                writing new ones.)
+                A{" "}
+                <a
+                  href="https://dsaspringplatform.org/provisional-new-chapter-by-laws-amendment/"
+                  target="_blank"
+                >
+                  constitutional amendment
+                </a>{" "}
+                requiring new chapters to provisionally adopt national sample
+                bylaws for their first 6 months so they can establish a baseline
+                of internal organization and leadership before going through the
+                tedious process of drafting new bylaws. (Currently, the national
+                provides sample bylaws but cannot require that chapters adopt
+                them instead of writing new ones.)
               </p>
             </section>
 
