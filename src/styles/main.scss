@@ -37,8 +37,23 @@
     }
   }
 
+  &__members {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: rem-calc(20);
+  }
+
+  &__member {
+    @include member();
+    flex: 1 0 50%;
+  }
+
   &__paragraph {
     padding-bottom: rem-calc(15);
+  }
+
+  &__first-sentence {
+    @include firstLine();
   }
 
   &__list {

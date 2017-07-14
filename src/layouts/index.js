@@ -24,6 +24,50 @@ export default class Template extends React.Component {
             {
               name: "keywords",
               content: "socialism, democratic socialism, DSA"
+            },
+            {
+              name: "twitter:card",
+              content: "summary_large_image"
+            },
+            {
+              name: "twitter:site",
+              content: "@DSA_Momentum"
+            },
+            {
+              name: "twitter:title",
+              content: "DSA Momentum"
+            },
+            {
+              name: "twitter:description",
+              content: "For a Mass Socialist Movement in the United States"
+            },
+            {
+              name: "twitter:image",
+              content: "https://s3.amazonaws.com/dsamomentum/dsamomentum.png"
+            },
+            {
+              name: "twitter:image:alt",
+              content: "Design and Illustration by Colleen Tighe"
+            },
+            {
+              property: "og:url",
+              content: "http://dsamomentum.org/"
+            },
+            {
+              property: "og:type",
+              content: "website"
+            },
+            {
+              property: "og:title",
+              content: "DSA Momentum"
+            },
+            {
+              property: "og:description",
+              content: "For a Mass Socialist Movement in the United States"
+            },
+            {
+              property: "og:image",
+              content: "https://s3.amazonaws.com/dsamomentum/dsamomentum.png"
             }
           ]}
         />

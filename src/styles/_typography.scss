@@ -37,6 +37,11 @@ $overpass: 'Overpass', sans-serif;
   text-decoration: none;
 }
 
+@mixin member {
+  color: $gray;
+  font-weight: 800;
+}
+
 @mixin bodyCopy() {
   color: $dark-gray;
   font-family: $overpass;
@@ -46,6 +51,11 @@ $overpass: 'Overpass', sans-serif;
   letter-spacing: rem-calc(0.6);
   line-height: 1.4;
   text-decoration: none;
+}
+
+@mixin firstLine() {
+  color: $red;
+  font-weight: 800;
 }
 
 @mixin bodyCopySmall() {
@@ -62,8 +72,17 @@ $overpass: 'Overpass', sans-serif;
 }
 
 a {
-  &:visited,
+  &:any-link {
+    color: $red;
+    text-decoration: none;
+  }
+
   &:-webkit-any-link {
+    color: $red;
+    text-decoration: none;
+  }
+
+  &:-moz-any-link {
     color: $red;
     text-decoration: none;
   }

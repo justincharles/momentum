@@ -9,21 +9,37 @@ export default class Preamble extends React.Component {
       <div>
         <Nav />
         <div className="main__row">
-          <h3 className="main__page-title">Preamble</h3>
+          <h3 className="main__page-title">
+            For a Mass Socialist Movement in the United States
+          </h3>
           <div className="main__body-copy">
+            <div className="main__members">
+              <div className="main__member">Jared Abbott (Boston)</div>
+              <div className="main__member">Christian Bowe (Central NJ)</div>
+              <div className="main__member">Jeremy Gong (East Bay)</div>
+              <div className="main__member">Dustin Guastella (Philly)</div>
+              <div className="main__member">Catherine Hoffman (Detroit)</div>
+              <div className="main__member">Ella Mahony (NYC)</div>
+              <div className="main__member">Chris Maisano (NYC)</div>
+              <div className="main__member">Natalie Midiri (Philly)</div>
+              <div className="main__member">Delé Balogun (Chicago)</div>
+            </div>
             <p className="main__paragraph">
-              We live in a time of uncertainty and turmoil, at home and around
-              the world. A period of rising class consciousness and dangerous
-              xenophobic populism. Of downward mobility for young workers and
-              hostile labor markets for all. These conditions have prompted a
-              search for alternatives, bringing us to the end of that long,
-              frustrating cycle in which socialism was “the ideology that dare
-              not speak its name.” We are finally entering a time in which
-              fighting openly as socialists is not only exciting, but a sound
-              political strategy. In this situation, the Left must fortify our
-              claim to being the only genuine alternative. If we don’t, we'll
-              allow the far right to falsely present itself as the only source
-              of opposition to the status quo.
+              <span className="main__first-sentence">
+                We live in a time of uncertainty and turmoil, at home and around
+                the world.
+              </span>{" "}
+              A period of rising class consciousness and dangerous xenophobic
+              populism. Of downward mobility for young workers and hostile labor
+              markets for all. These conditions have prompted a search for
+              alternatives, bringing us to the end of that long, frustrating
+              cycle in which socialism was “the ideology that dare not speak its
+              name.” We are finally entering a time in which fighting openly as
+              socialists is not only exciting, but a sound political strategy.
+              In this situation, the Left must fortify our claim to being the
+              only genuine alternative. If we don’t, we'll allow the far right
+              to falsely present itself as the only source of opposition to the
+              status quo.
             </p>
 
             <p className="main__paragraph">
