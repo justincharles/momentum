@@ -3,7 +3,7 @@
 $overpass: 'Overpass', sans-serif;
 
 @mixin headerTitle() {
-  color: $pastel-red;
+  color: $red;
   font-family: $overpass;
   font-style: normal;
   font-weight: 900;
@@ -12,7 +12,7 @@ $overpass: 'Overpass', sans-serif;
 }
 
 @mixin headerPageLink() {
-  color: $pastel-red;
+  color: $red;
   font-family: $overpass;
   font-style: normal;
   font-weight: 400;
@@ -20,7 +20,7 @@ $overpass: 'Overpass', sans-serif;
 }
 
 @mixin pageTitle() {
-  color: $pastel-red;
+  color: $red;
   font-family: $overpass;
   font-style: normal;
   font-size: rem-calc(26);
@@ -29,7 +29,7 @@ $overpass: 'Overpass', sans-serif;
 }
 
 @mixin pageTitle() {
-  color: $pastel-red;
+  color: $red;
   font-family: $overpass;
   font-style: normal;
   font-size: rem-calc(26);
@@ -64,7 +64,7 @@ $overpass: 'Overpass', sans-serif;
 a {
   &:visited,
   &:-webkit-any-link {
-    color: $pastel-red;
+    color: $red;
     text-decoration: none;
   }
 }
