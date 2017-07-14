@@ -1,23 +1,31 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from "react";
+import PropTypes from "prop-types";
 
-const BUILD_TIME = new Date().getTime()
+const BUILD_TIME = new Date().getTime();
+
+let stylesStr;
+if (process.env.NODE_ENV === `production`) {
+  try {
+    stylesStr = require(`!raw-loader!../public/styles.css`);
+  } catch (e) {
+    console.log(e);
+  }
+}
 
 export default class HTML extends React.Component {
   static propTypes = {
-    body: PropTypes.string,
-  }
+    body: PropTypes.string
+  };
 
   render() {
-    let css
-    if (process.env.NODE_ENV === "production") {
+    let css;
+    if (process.env.NODE_ENV === `production`) {
       css = (
         <style
-          dangerouslySetInnerHTML={{
-            __html: require("!raw!../public/styles.css"),
-          }}
+          id="gatsby-inlined-css"
+          dangerouslySetInnerHTML={{ __html: stylesStr }}
         />
-      )
+      );
     }
 
     return (
@@ -29,6 +37,7 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
+          <link rel="icon" href="favicon.ico" type="image/x-icon" />
           {this.props.headComponents}
           {css}
         </head>
@@ -40,6 +49,6 @@ export default class HTML extends React.Component {
           {this.props.postBodyComponents}
         </body>
       </html>
-    )
+    );
   }
 }

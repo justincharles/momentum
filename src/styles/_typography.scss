@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:300,300i,400,800,900');
+
+$overpass: 'Overpass', sans-serif;
+
+@mixin headerTitle() {
+  color: $pastel-red;
+  font-family: $overpass;
+  font-style: normal;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@mixin headerPageLink() {
+  color: $pastel-red;
+  font-family: $overpass;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+@mixin pageTitle() {
+  color: $pastel-red;
+  font-family: $overpass;
+  font-style: normal;
+  font-size: rem-calc(26);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+@mixin pageTitle() {
+  color: $pastel-red;
+  font-family: $overpass;
+  font-style: normal;
+  font-size: rem-calc(26);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+@mixin bodyCopy() {
+  color: $dark-gray;
+  font-family: $overpass;
+  font-style: normal;
+  font-size: rem-calc(18);
+  font-weight: 300;
+  letter-spacing: rem-calc(0.6);
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+@mixin bodyCopySmall() {
+  @include bodyCopy();
+
+  font-size: rem-calc(16);
+}
+
+@mixin quote {
+  color: $gray;
+  font-size: rem-calc(14);
+  font-style: italic;
+  font-weight: 300i;
+}
+
+a {
+  &:visited,
+  &:-webkit-any-link {
+    color: $pastel-red;
+    text-decoration: none;
+  }
+}

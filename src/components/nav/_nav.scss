@@ -1,0 +1,31 @@
+@import "../../styles/colors";
+@import "../../styles/typography";
+@import "../../styles/utils";
+
+.nav {
+  &__row {
+    max-width: 960px;
+    padding: 1.45rem 1rem;
+  }
+
+  &__heading {
+    @include headerTitle();
+
+    letter-spacing: rem-calc(3);
+    margin-bottom: rem-calc(10);
+    margin-top: 0;
+    text-align: left;
+  }
+
+  &__menu {
+    float: left;
+  }
+
+  &__menu-item {
+    @include headerPageLink();
+
+    display: inline;
+    padding-right: rem-calc(20);
+    text-align: left;
+  }
+}
