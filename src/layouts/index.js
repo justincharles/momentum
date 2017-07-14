@@ -51,7 +51,7 @@ export default class Template extends React.Component {
             },
             {
               property: "og:url",
-              content: "http://dsamomentum.org/"
+              content: "http://www.dsamomentum.org/"
             },
             {
               property: "og:type",
