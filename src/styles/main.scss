@@ -64,8 +64,16 @@
     padding-bottom: rem-calc(10);
   }
 
+  &__anchors {
+    display: block;
+
+    a {
+      display: block;
+    }
+  }
+
   &__platform-section {
-    border-bottom: 1px solid $pastel-red;
+    border-bottom: 1px solid $red;
     padding-bottom: rem-calc(7);
   }
 

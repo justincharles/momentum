@@ -97,35 +97,47 @@ export default class Preamble extends React.Component {
 
             <p className="main__paragraph">
               DSA Momentum offers six programmatic planks aimed at making that
-              aspiration a reality. A national campaign for Medicare For All is
-              at the heart of this project. That campaign ties into our slate’s
-              five other programmatic planks:
+              aspiration a reality.{" "}
+              <Link to="/platform#medicare-for-all">
+                A national campaign for Medicare For All
+              </Link>{" "}
+              is at the heart of this project. That campaign ties into our
+              slate’s five other programmatic planks:
             </p>
             <ul className="main__list">
               <li className="main__list-item">
-                A rank-and-file labor strategy that encourages DSAers to enter
-                the labor movement as rank-and-file workers; win leadership in
-                unions where possible; and organize the unorganized where
-                necessary.
+                <Link to="/platform#labor">
+                  A rank-and-file labor strategy
+                </Link>{" "}
+                that encourages DSAers to enter the labor movement as
+                rank-and-file workers; win leadership in unions where possible;
+                and organize the unorganized where necessary.
               </li>
               <li className="main__list-item">
-                An electoral strategy that encourages the development of
-                independent socialist political formations, provides us leverage
-                in our extra-electoral fights, and gives us a platform for
-                speaking to the working class.
+                <Link to="/platform#electoral">An electoral strategy</Link> that
+                encourages the development of independent socialist political
+                formations, provides us leverage in our extra-electoral fights,
+                and gives us a platform for speaking to the working class.
               </li>
               <li className="main__list-item">
-                Forging a new internationalism, which is central to fighting
-                economic nationalism at home and learning from socialist
-                movements abroad.
+                <Link to="/platform#internationalism">
+                  Forging a new internationalism
+                </Link>, which is central to fighting economic nationalism at
+                home and learning from socialist movements abroad.
               </li>
               <li className="main__list-item">
-                Deepening the internal democracy of DSA to empower new members
-                and invest them in DSA’s political future.
+                <Link to="/platform#spring-platform">
+                  Deepening the internal democracy of DSA
+                </Link>{" "}
+                 to empower new members and invest them in DSA’s political
+                future.
               </li>
               <li className="main__list-item">
-                A political education program that arms every member with a
-                strong sense of what we’re fighting for and why.
+                <Link to="/platform#political-ed">
+                  A political education program
+                </Link>{" "}
+                that arms every member with a strong sense of what we’re
+                fighting for and why.
               </li>
             </ul>
             <br />

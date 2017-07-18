@@ -12,7 +12,19 @@ export default class Platform extends React.Component {
           <h3 className="main__page-title">Platform</h3>
           <div className="main__body-copy">
             <section className="main__platform-section">
-              <h4 className="main__subhead">
+              <div className="main__anchors">
+                <a href="#labor">Labor: The Rank-and-File Strategy</a>
+                <a href="#electoral">Electoral Strategy, Not Electoralism</a>
+                <a href="#internationalism">
+                  Internationalism: Our Struggle For Global Liberation
+                </a>
+                <a href="#spring-platform">
+                  Internal Democracy and the Spring Platform
+                </a>
+                <a href="#political-ed">Political Education</a>
+                <a href="#medicare-for-all">Medicare for All Campaign</a>
+              </div>
+              <h4 className="main__subhead" id="labor">
                 Labor: The Rank-and-File Strategy
               </h4>
               <p className="main__paragraph">
@@ -102,7 +114,7 @@ export default class Platform extends React.Component {
               </p>
             </section>
             <section className="main__platform-section">
-              <h4 className="main__subhead">
+              <h4 className="main__subhead" id="electoral">
                 Electoral Strategy, Not Electoralism
               </h4>
               <p className="main__paragraph">
@@ -251,7 +263,7 @@ export default class Platform extends React.Component {
             </section>
 
             <section className="main__platform-section">
-              <h4 className="main__subhead">
+              <h4 className="main__subhead" id="internationalism">
                 Internationalism: Our Struggle For Global Liberation
               </h4>
               <p className="main__paragraph">
@@ -286,7 +298,7 @@ export default class Platform extends React.Component {
             </section>
 
             <section className="main__platform-section">
-              <h4 className="main__subhead">
+              <h4 className="main__subhead" id="spring-platform">
                 Internal Democracy and the Spring Platform
               </h4>
 
@@ -501,7 +513,7 @@ export default class Platform extends React.Component {
                 training and political education, so the biennial convention can
                 provide enough time to conduct a proper convention.
               </p>
-              <h5 className="main__subsubhead">G. National Grievance System</h5>
+              <h5 className="main__subsubhead">H. National Grievance System</h5>
               <p className="main__platform-subsection">
                 Many DSA chapters have language in their bylaws stating that
                 members who are disciplined locally or who have their membership
@@ -534,7 +546,7 @@ export default class Platform extends React.Component {
                 grievance officer who will assist members and locals in handling
                 grievances.
               </p>
-              <h5 className="main__subsubhead">H. Raising Dues</h5>
+              <h5 className="main__subsubhead">I. Raising Dues</h5>
               <p className="main__platform-subsection">
                 To make the most of our recent growth and keep the momentum
                 going, and in order to carry out ambitious plans like a national
@@ -549,7 +561,7 @@ export default class Platform extends React.Component {
                 constitutional amendment to implement a monthly dues system.
               </p>
               <h5 className="main__subsubhead">
-                I. New Chapter Bylaws Amendment
+                J. New Chapter Bylaws Amendment
               </h5>
               <p className="main__platform-subsection">
                 A{" "}
@@ -569,7 +581,9 @@ export default class Platform extends React.Component {
             </section>
 
             <section className="main__platform-section">
-              <h4 className="main__subhead">Political Education</h4>
+              <h4 className="main__subhead" id="political-ed">
+                Political Education
+              </h4>
               <p className="main__paragraph">
                 A socialist organization must be able to communicate its
                 political vision confidently and coherently. A confusing message
@@ -627,7 +641,9 @@ export default class Platform extends React.Component {
             </section>
 
             <section className="main__platform-section">
-              <h4 className="main__subhead">Medicare for All Campaign</h4>
+              <h4 className="main__subhead" id="medicare-for-all">
+                Medicare for All Campaign
+              </h4>
               <p className="main__paragraph">
                 We believe we need a national campaign to mobilize our members
                 behind a unified and politically viable campaign. Medicare for
