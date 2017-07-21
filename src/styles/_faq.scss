@@ -1,0 +1,25 @@
+.main {
+  &__faq-section {
+    border-bottom: 1px solid $red;
+    margin-bottom: rem-calc(20);
+    padding-bottom: rem-calc(7);
+  }
+
+  &__faq-intro {
+    font-style: italic;
+    padding-bottom: rem-calc(20);
+  }
+
+  &__faq-question {
+    font-weight: 800;
+  }
+
+  &__faq-question,
+  &__faq-answer {
+    padding-bottom: rem-calc(15);
+  }
+
+  &__faq-letter {
+    font-weight: 800;
+  }
+}
