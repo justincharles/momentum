@@ -27,7 +27,7 @@ export default class FAQ extends React.Component {
               </p>
 
               <p className="main__faq-answer">
-                The internal DSA opposition to the March on Washington tactic has been thoughtful and articulated in good faith. Members have raised concerns about how smaller and newer locals, or locals far from Washington, would contribute. They has questioned how this march would be different from the cascade of other Marches on Washington this year. And many expressed that they would like to work with us on a national campaign so long as it did not center on this specific tactic.
+                The internal DSA opposition to the March on Washington tactic has been thoughtful and articulated in good faith. Members have raised concerns about how smaller and newer locals, or locals far from Washington, would contribute. They have questioned how this march would be different from the cascade of other Marches on Washington this year. And many expressed that they would like to work with us on a national campaign so long as it did not center on this specific tactic.
               </p>
 
               <p className="main__faq-answer">
