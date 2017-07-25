@@ -287,7 +287,7 @@ export default class WhoWeAre extends React.Component {
                   to hit the streets and talk to their neighbors about single
                   payer healthcare – and socialism! Through this mass canvassing
                   work, we have trained dozens of skilled organizers, brought in
-                  hundreds of new members, and buily a culture of committed and
+                  hundreds of new members, and built a culture of committed and
                   politically grounded organizing.
                 </p>
                 <p className="main__paragraph">
