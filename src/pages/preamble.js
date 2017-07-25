@@ -14,15 +14,36 @@ export default class Preamble extends React.Component {
           </h3>
           <div className="main__body-copy">
             <div className="main__members">
-              <div className="main__member">Jared Abbott (Boston)</div>
-              <div className="main__member">Christian Bowe (Central NJ)</div>
-              <div className="main__member">Jeremy Gong (East Bay)</div>
-              <div className="main__member">Dustin Guastella (Philly)</div>
-              <div className="main__member">Catherine Hoffman (Detroit)</div>
-              <div className="main__member">Ella Mahony (NYC)</div>
-              <div className="main__member">Chris Maisano (NYC)</div>
-              <div className="main__member">Natalie Midiri (Philly)</div>
-              <div className="main__member">Delé Balogun (Chicago)</div>
+              <Link to="/who-we-are/#jared-abbott" className="main__member">
+                Jared Abbott (Boston)
+              </Link>
+              <Link to="/who-we-are/#dele-balogun" className="main__member">
+                Delé Balogun (Chicago)
+              </Link>
+              <Link to="/who-we-are/#christian-bowe" className="main__member">
+                Christian Bowe (Central NJ)
+              </Link>
+              <Link to="/who-we-are/#jeremy-gong" className="main__member">
+                Jeremy Gong (East Bay)
+              </Link>
+              <Link to="/who-we-are/#dustin-guastella" className="main__member">
+                Dustin Guastella (Philly)
+              </Link>
+              <Link
+                to="/who-we-are/#catherine-hoffman"
+                className="main__member"
+              >
+                Catherine Hoffman (Detroit)
+              </Link>
+              <Link to="/who-we-are/#ella-mahony" className="main__member">
+                Ella Mahony (NYC)
+              </Link>
+              <Link to="/who-we-are/#chris-maisano" className="main__member">
+                Chris Maisano (NYC)
+              </Link>
+              <Link to="/who-we-are/#natalie-midiri" className="main__member">
+                Natalie Midiri (Philly)
+              </Link>
             </div>
             <p className="main__paragraph">
               <span className="main__first-sentence">
@@ -129,7 +150,7 @@ export default class Preamble extends React.Component {
                 <Link to="/platform#spring-platform">
                   Deepening the internal democracy of DSA
                 </Link>{" "}
-                 to empower new members and invest them in DSA’s political
+                to empower new members and invest them in DSA’s political
                 future.
               </li>
               <li className="main__list-item">

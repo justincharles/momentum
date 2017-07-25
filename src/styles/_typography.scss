@@ -38,8 +38,8 @@ $overpass: 'Overpass', sans-serif;
 }
 
 @mixin member {
-  color: $gray;
-  font-weight: 800;
+  color: $red;
+  font-weight: 300;
 }
 
 @mixin bodyCopy() {

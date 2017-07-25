@@ -18,6 +18,9 @@ class Nav extends Component {
               <Link to="/platform">Platform</Link>
             </h2>
             <h2 className="nav__menu-item">
+              <Link to="/who-we-are">Who We Are</Link>
+            </h2>
+            <h2 className="nav__menu-item">
               <Link to="/faq">FAQ</Link>
             </h2>
           </div>
