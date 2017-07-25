@@ -10,6 +10,7 @@ import dustin from "../assets/dustin-guastella.jpg";
 import catherine from "../assets/catherine-hoffman.jpg";
 import ella from "../assets/ella-mahony.jpg";
 import chris from "../assets/chris-maisano.jpg";
+import natalie from "../assets/natalie-midiri.jpg";
 
 export default class WhoWeAre extends React.Component {
   render() {
@@ -616,6 +617,9 @@ export default class WhoWeAre extends React.Component {
                 Natalie Midiri (Philadelphia)
               </h4>
               <div className="main__bio-row">
+                <figure className="main__bio-photo">
+                  <img src={natalie} alt="Natalie Midiri" />
+                </figure>
                 <p className="main__paragraph">
                   I’m Natalie Midiri - community organizer, educator, and
                   Co-Chair of Philadelphia DSA. From 2013-2016 I was a teacher
