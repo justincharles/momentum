@@ -24,7 +24,7 @@ class Nav extends Component {
               <Link to="/faq">FAQ</Link>
             </h2>
             <h2 className="nav__menu-item">
-              <Link to="/links">Links</Link>
+              <Link to="/reading">Reading</Link>
             </h2>
           </div>
         </div>

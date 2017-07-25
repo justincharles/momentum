@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 import Helmet from "react-helmet";
 import Nav from "../components/nav/nav";
 
-export default class Links extends React.Component {
+export default class Reading extends React.Component {
   render() {
     return (
       <div>
