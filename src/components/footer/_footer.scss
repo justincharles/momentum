@@ -1,0 +1,32 @@
+@import "../../styles/colors";
+@import "../../styles/typography";
+@import "../../styles/utils";
+
+.footer {
+  &__row {
+    margin-bottom: rem-calc(40);
+    max-width: 960px;
+    padding: 0 1rem 1.45rem;
+  }
+
+  &__menu {
+    float: left;
+  }
+
+  &__menu-item {
+    @include headerPageLink();
+
+    display: inline;
+    padding-right: rem-calc(20);
+    text-align: left;
+
+    @media only screen and (max-device-width: 425px) and (-webkit-min-device-pixel-ratio: 2) {
+      font-size: rem-calc(14);
+    }
+
+    @media only screen and (max-device-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+      font-size: rem-calc(12);
+      padding-right: rem-calc(15);
+    }
+  }
+}

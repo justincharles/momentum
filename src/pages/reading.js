@@ -2,6 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
 import Nav from "../components/nav/nav";
+import Footer from "../components/footer/footer";
 
 export default class Reading extends React.Component {
   render() {
@@ -305,9 +306,9 @@ export default class Reading extends React.Component {
                 </li>
               </ul>
             </section>
-            <br />
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

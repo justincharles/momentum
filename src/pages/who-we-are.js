@@ -2,6 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
 import Nav from "../components/nav/nav";
+import Footer from "../components/footer/footer";
 import jared from "../assets/jared-abbott.png";
 import dele from "../assets/dele-balogun.jpg";
 import christian from "../assets/christian-bowe.png";
@@ -638,6 +639,7 @@ export default class WhoWeAre extends React.Component {
             <br />
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

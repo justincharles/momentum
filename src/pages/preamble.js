@@ -2,6 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
 import Nav from "../components/nav/nav";
+import Footer from "../components/footer/footer";
 
 export default class Preamble extends React.Component {
   render() {
@@ -12,7 +13,7 @@ export default class Preamble extends React.Component {
           <h3 className="main__page-title">
             For a Mass Socialist Movement in the United States
           </h3>
-          <div className="main__body-copy">
+          <div className="main__body-copy main__body-copy--preamble">
             <div className="main__members">
               <Link to="/who-we-are/#jared-abbott" className="main__member">
                 Jared Abbott (Boston)
@@ -164,7 +165,9 @@ export default class Preamble extends React.Component {
             <br />
             <Link to="/platform">Read the platform</Link>
           </div>
+          <br />
         </div>
+        <Footer />
       </div>
     );
   }
