@@ -124,6 +124,187 @@ export default class Reading extends React.Component {
                 </li>
               </ul>
             </section>
+            <section className="main__links-section">
+              <h4 className="main__links-section-title">
+                Workers, Unions, and the Labor Movement
+              </h4>
+              <ul className="main__links-list">
+                <li className="main__links-list-item">
+                  Vivek Chibber,{" "}
+                  <a
+                    href="https://www.jacobinmag.com/2016/03/working-class-capitalism-socialists-strike-power/"
+                    target="_blank"
+                  >
+                    “Why the Working Class?”
+                  </a>
+                </li>
+                <li className="main__links-list-item">
+                  Sam Gindin,{" "}
+                  <a
+                    href="https://www.jacobinmag.com/2016/08/beyond-social-movement-unionism"
+                    target="_blank"
+                  >
+                    “Beyond Social Movement Unionism”
+                  </a>
+                </li>
+                <li className="main__links-list-item">
+                  Jane McAlevey,{" "}
+                  <a
+                    href="https://www.jacobinmag.com/2016/09/everything-old-is-new-again-mcaveley/"
+                    target="_blank"
+                  >
+                    “Everything Old is New Again”
+                  </a>
+                </li>
+                <li className="main__links-list-item">
+                  Chris Maisano,{" "}
+                  <a
+                    href="https://www.jacobinmag.com/2016/01/friedrichs-public-sector-unions-abood-right-to-work/"
+                    target="_blank"
+                  >
+                    “The Road to <i>Friedrichs</i>”
+                  </a>
+                </li>
+                <li className="main__links-list-item">
+                  Kim Moody,{" "}
+                  <a
+                    href="https://www.jacobinmag.com/2016/06/precariat-labor-us-workers-uber-walmart-gig-economy"
+                    target="_blank"
+                  >
+                    “The State of American Labor”
+                  </a>{" "}
+                  and{" "}
+                  <a
+                    href="http://www.labornotes.org/2016/07/interview-busting-myths-workerless-future"
+                    target="_blank"
+                  >
+                    “Busting the Myths of a Workerless Future”
+                  </a>
+                </li>
+                <li className="main__links-list-item">
+                  Charlie Post,{" "}
+                  <a
+                    href="https://www.jacobinmag.com/2016/08/the-forgotten-militants"
+                    target="_blank"
+                  >
+                    “The Forgotten Militants”
+                  </a>
+                </li>
+              </ul>
+            </section>
+            <section className="main__links-section">
+              <h4 className="main__links-section-title">
+                The Dilemmas of Social Democracy
+              </h4>
+              <ul className="main__links-list">
+                <li className="main__links-list-item">
+                  Robert Brenner,{" "}
+                  <a
+                    href="https://www.versobooks.com/blogs/2508-the-paradox-of-social-democracy-the-american-case-part-one"
+                    target="_blank"
+                  >
+                    “The Paradox of Social Democracy”
+                  </a>
+                </li>
+                <li className="main__links-list-item">
+                  Peter Frase,{" "}
+                  <a
+                    href="https://www.jacobinmag.com/2016/06/social-democracy-polanyi-great-transformation-welfare-state"
+                    target="_blank"
+                  >
+                    “Social Democracy’s Breaking Point”
+                  </a>
+                </li>
+                <li className="main__links-list-item">
+                  Ralph Miliband and Marcel Liebman,{" "}
+                  <a
+                    href="https://www.marxists.org/archive/miliband/1985/xx/beyondsd.htm"
+                    target="_blank"
+                  >
+                    “Beyond Social Democracy”
+                  </a>
+                </li>
+              </ul>
+            </section>
+            <section className="main__links-section">
+              <h4 className="main__links-section-title">
+                Parties, Elections, and Electoral Strategy
+              </h4>
+              <ul className="main__links-list">
+                <li className="main__links-list-item">
+                  Seth Ackerman,{" "}
+                  <a
+                    href="https://www.jacobinmag.com/2016/11/bernie-sanders-democratic-labor-party-ackerman/"
+                    target="_blank"
+                  >
+                    “A Blueprint For A New Party”
+                  </a>
+                </li>
+                <li className="main__links-list-item">
+                  Walter Dean Burnham,{" "}
+                  <a
+                    href="http://rooseveltinstitute.org/democracy-peril-dangerous-voter-turnout-trends/"
+                    target="_blank"
+                  >
+                    “Democracy in Peril: The American Turnout Problem and the
+                    Path to Plutocracy”
+                  </a>
+                </li>
+                <li className="main__links-list-item">
+                  Paul Heideman,{" "}
+                  <a
+                    href="https://www.jacobinmag.com/2016/02/democratic-party-realignment-civil-rights-mcgovern-meany-rustin-sanders"
+                    target="_blank"
+                  >
+                    “It’s Their Party”
+                  </a>
+                </li>
+                <li className="main__links-list-item">
+                  Neal Meyer,{" "}
+                  <a
+                    href="https://www.solidarity-us.org/node/4690"
+                    target="_blank"
+                  >
+                    “Electoral Strategy After Bernie’s Campaign”
+                  </a>
+                </li>
+              </ul>
+            </section>
+            <section className="main__links-section">
+              <h4 className="main__links-section-title">
+                The Challenge of Socialist Internationalism
+              </h4>
+              <ul className="main__links-list">
+                <li className="main__links-list-item">
+                  John Bellamy Foster,{" "}
+                  <a
+                    href="https://monthlyreview.org/2000/07/01/marx-and-lnternationalism/"
+                    target="_blank"
+                  >
+                    “Marx and Internationalism”
+                  </a>
+                </li>
+                <li className="main__links-list-item">
+                  Ella Mahony,{" "}
+                  <a
+                    href="http://www.dsausa.org/beyond_the_socialist_international_report_back_on_the_acampamento_internacional"
+                    target="_blank"
+                  >
+                    “Beyond the Socialist International”
+                  </a>
+                </li>
+                <li className="main__links-list-item">
+                  Chris Maisano and Joseph Schwartz,{" "}
+                  <a
+                    href="https://drive.google.com/open?id=0Byh5jKbk0CCdY1ZLNEx1TFZ3WTg"
+                    target="_blank"
+                  >
+                    “Which Side are We On? Why DSA Must Leave the Socialist
+                    International”
+                  </a>
+                </li>
+              </ul>
+            </section>
             <br />
           </div>
         </div>
