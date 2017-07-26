@@ -4,7 +4,6 @@ import Helmet from "react-helmet";
 import Nav from "../components/nav/nav";
 import Footer from "../components/footer/footer";
 import jared from "../assets/jared-abbott.png";
-import dele from "../assets/dele-balogun.jpg";
 import christian from "../assets/christian-bowe.png";
 import jeremy from "../assets/jeremy-gong.jpg";
 import dustin from "../assets/dustin-guastella.jpg";
@@ -123,71 +122,6 @@ export default class WhoWeAre extends React.Component {
                   am eager to learn from those mistakes and work with members
                   throughout the country to turn DSA into the organization it
                   can and should be.
-                </p>
-              </div>
-            </section>
-            <section className="main__bio">
-              <h4 className="main__bio-name" id="dele-balogun">
-                Delé Balogun (Chicago North Side)
-              </h4>
-              <div className="main__bio-row">
-                <figure className="main__bio-photo">
-                  <img src={dele} alt="Delé Balogun" />
-                </figure>
-                <p className="main__paragraph">
-                  I’m Delé Balogun, and I’m currently the Political Education
-                  Co-Officer for Chicago North Side DSA. As the largest
-                  socialist organization in the country, DSA has a historic
-                  opportunity to help build a mass socialist and labor party as
-                  a long term project. We must seize this critical opportunity,
-                  and I believe that DSA Momentum’s platform provides many of
-                  the building blocks for this project.
-                </p>
-                <p className="main__paragraph">
-                  I started as a socialist activist seven years ago following
-                  major disillusionment with the Democratic Party, particularly
-                  concerning the issue of universal healthcare. It was at this
-                  time that I realized the Democrats represented capitalism’s
-                  liberal wing and that we urgently needed an independent,
-                  socialist, working class political alternative. I believe that
-                  the fundamental role of both of the main political parties is
-                  to sustain the legitimacy of the capitalist class.
-                </p>
-                <p className="main__paragraph">
-                  In the late summer of 2009, I began work in an LGBT group in
-                  Portland, Oregon, which organized a local march in October of
-                  that year as part of the National Equality March on
-                  Washington. In 2011, I visited the capitol occupation in
-                  Madison, Wisconsin, and later in the year threw myself into
-                  Occupy Wall Street organizing. Since then, I have supported
-                  and participated in movements such as Black Lives Matter and
-                  the Fight for $15. In the Fall of 2014, I participated in the
-                  African Heritage Delegation to Palestine, where I met with
-                  Palestinians struggling for liberation against a brutal
-                  occupation.
-                </p>
-                <p className="main__paragraph">
-                  The foundation for my working class consciousness was laid in
-                  the grueling work, alienation, and management oppression I
-                  experienced in the jobs I worked over the years. My experience
-                  with these jobs taught me first-hand about about working class
-                  exploitation in our capitalist system. But it was only through
-                  socialist political education that I was able to articulate
-                  these workplace experiences and develop a vision for the type
-                  of society I’d like to see, one where the working class
-                  collectively controls the economy and society.
-                </p>
-                <p className="main__paragraph">
-                  Strategically rebuilding a mass labor movement is one of the
-                  keys to getting there. There’s no getting around the fact that
-                  so long as our labor is exploited by a small class of
-                  employers, there can be no meaningful liberation in this
-                  world. But rebuilding a 21st century mass labor movement must
-                  be coupled with equally strong socialist organizations and
-                  mass movements against all oppression, against imperialism and
-                  war, and for climate justice. If I’m elected to the NPC, this
-                  is the understanding from which I will base my work in our
-                  organization.
                 </p>
               </div>
             </section>

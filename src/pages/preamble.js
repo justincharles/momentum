@@ -18,9 +18,6 @@ export default class Preamble extends React.Component {
               <Link to="/who-we-are/#jared-abbott" className="main__member">
                 Jared Abbott (Boston)
               </Link>
-              <Link to="/who-we-are/#dele-balogun" className="main__member">
-                Delé Balogun (Chicago)
-              </Link>
               <Link to="/who-we-are/#christian-bowe" className="main__member">
                 Christian Bowe (Central NJ)
               </Link>
