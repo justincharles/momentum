@@ -306,6 +306,49 @@ export default class Reading extends React.Component {
                 </li>
               </ul>
             </section>
+            <section className="main__links-section">
+              <h4 className="main__links-section-title">
+                The Politics of the Right
+              </h4>
+              <ul className="main__links-list">
+                <li className="main__links-list-item">
+                  Johanna Brenner and Robert Brenner,{" "}
+                  <a
+                    href="https://www.versobooks.com/blogs/2939-reagan-the-right-and-the-working-class"
+                    target="_blank"
+                  >
+                    “Reagan, the Right, and the Working Class”
+                  </a>
+                </li>
+                <li className="main__links-list-item">
+                  Stephanie Coontz,{" "}
+                  <a
+                    href="https://www.vox.com/conversations/2016/10/25/13384528/donald-trump-women-stephanie-coontz"
+                    target="_blank"
+                  >
+                    “Why Women Are Still Voting for Trump, Despite His Misogyny”
+                  </a>
+                </li>
+                <li className="main__links-list-item">
+                  Doug Henwood,{" "}
+                  <a
+                    href="https://drive.google.com/open?id=0Byh5jKbk0CCda2NGZ0lfZklmbVE"
+                    target="_blank"
+                  >
+                    “The American Right: From Margins to Mainstream”
+                  </a>
+                </li>
+                <li className="main__links-list-item">
+                  David Kotz,{" "}
+                  <a
+                    href="https://jacobinmag.com/2017/05/donald-trump-neoliberalism-right-wing-nationalism"
+                    target="_blank"
+                  >
+                    “The Specter of Right-Wing Nationalism”
+                  </a>
+                </li>
+              </ul>
+            </section>
           </div>
         </div>
         <Footer />
