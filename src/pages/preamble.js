@@ -8,6 +8,10 @@ export default class Preamble extends React.Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Preamble | DSA Momentum</title>
+        </Helmet>
         <Nav />
         <div className="main__row">
           <h3 className="main__page-title">

@@ -25,16 +25,16 @@
     @include headerPageLink();
 
     display: inline;
-    padding-right: rem-calc(20);
+    padding-right: rem-calc(15);
     text-align: left;
 
     @media only screen and (max-device-width: 425px) and (-webkit-min-device-pixel-ratio: 2) {
-      font-size: rem-calc(14);
+      font-size: rem-calc(12);
     }
 
     @media only screen and (max-device-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
-      font-size: rem-calc(12);
-      padding-right: rem-calc(15);
+      font-size: rem-calc(10);
+      padding-right: rem-calc(10);
     }
   }
 }

@@ -8,6 +8,10 @@ export default class Reading extends React.Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>For Further Reading | DSA Momentum</title>
+        </Helmet>
         <Nav />
         <div className="main__row">
           <h3 className="main__page-title">For Further Reading</h3>

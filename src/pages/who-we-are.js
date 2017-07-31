@@ -16,6 +16,10 @@ export default class WhoWeAre extends React.Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Who We Are | DSA Momentum</title>
+        </Helmet>
         <Nav />
         <div className="main__row">
           <h3 className="main__page-title">Who We Are</h3>
