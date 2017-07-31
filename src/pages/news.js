@@ -22,15 +22,15 @@ export default function Index({ data }) {
             .filter(post => post.node.frontmatter.title.length > 0)
             .map(({ node: post }) => {
               return (
-                <div className="main__links-section" key={post.id}>
+                <div className="main__post-section" key={post.id}>
                   <h4 className="main__links-section-title">
                     <Link to={post.frontmatter.path}>
                       {post.frontmatter.title}
                     </Link>
                   </h4>
-                  <h5>
+                  <small>
                     {post.frontmatter.date}
-                  </h5>
+                  </small>
                   <p>
                     {post.excerpt}
                   </p>

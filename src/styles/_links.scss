@@ -1,8 +1,13 @@
 .main {
-  &__links-section {
+  &__links-section,
+  &__post-section {
     border-bottom: 1px solid $red;
     margin-bottom: rem-calc(20);
     padding-bottom: rem-calc(7);
+  }
+
+  &__post-section {
+    padding-bottom: rem-calc(20);
   }
 
   &__links-section-title {
